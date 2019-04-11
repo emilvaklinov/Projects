@@ -1,0 +1,21 @@
+
+
+  @media (min-width: 576px) {
+
+    body {
+        font-family: "Comic Sans", sans-serif;
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align-: le--ft;
+        background-color: #fff;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-column-gap: 50px;
+      }
+
+  }
