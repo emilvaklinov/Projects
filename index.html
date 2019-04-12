@@ -1,18 +1,118 @@
-<html>
-    <head>
-            <meta charset="utf-8">
-            <link rel="stylesheet" href="style.css">
-            <title>Projects</title>
-    </head>
-<body>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title></title>
+  </head>
 
-    <div class="grid-container">
-        <div class="project">Carousel</div>
-        <div class="project">War of Wizards</div>
-        <div class="project">Secret Garden</div>
-        <div class="project">CodeClan Analytica</div>
+ <body>
 
+  <div class="jumbotron_text_center">
+    <h1></h1>
+    <p></p>
+    <h2>MY PROJECTS</h2>
+  </div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!--<button onclick="" id="mextBtn"title="projects">Projects</button>-->
+
+<script src="main.js"></script>
+
+
+<section> 
+<div id="section" class="container">
+    <div class="form-wrapper">
+      <h4>War of wizards - Game</h4>
+         <a href="https://war-of-wizards.herokuapp.com/"target="_blank">
+        <img src="pictures/wizards.png" class="demo cursor">
     </div>
+    <p> <a href="" target="_blank"></a></p> 
+    
+    <h3>Tutorials</h3>
+    <p>
+    War of Wizards RUBY project Mob App Game and Learning system for Ruby beginners. The user can learn
+    different functions during playing the game. The project was created by using Ruby, PostgreSQL, HTML and
+    Sinatra. Project is visible at <a href="https://github.com/emilvaklinov/War-of-Wizards-learning-game-Ruby-project"target="_blank">GitHub </a>.
+    </p>
 
-</body>
+</div>
+
+
+<div id="section" class="container">
+        <div class="form-wrapper">
+          <h4>CodeClan Analytica for Tweet analyses</h4>
+             <a href="https://emil-twitter-analysis.herokuapp.com/"target="_blank">
+            <img src="pictures/analytica.png" class="demo cursor">
+        </div>
+        <p> <a href="" target="_blank"></a></p> 
+        
+        <h3>Tutorials</h3>
+        <p>
+        JavaScript project: CodeClan Collaborative Project - Tweet analysis app. Group Agile project used JavaScript,
+        Node JS, Scrum, Trello, Atom/VisualStudio, MongoDB, Express, Insomnia, SOLID principles and Git. Project is
+        visible at <a href="https://github.com/emilvaklinov/CodeClan-Analysis-Heroku"target="_blank">GitHub </a>.
+        </p>
+    
+</div>
+
+<div id="section" class="container">
+        <div class="form-wrapper">
+          <h4>Secret Garden - holiday booking system</h4>
+             <a href="https://github.com/emilvaklinov/SECRET-GARDEN-Holiday-booking-system"target="_blank">
+            <img src="pictures/secretgarden.png" class="demo cursor">
+        </div>
+        <p> <a href="" target="_blank"></a></p> 
+        
+        <h3>Tutorials</h3>
+        <p>
+        JAVA project: Holiday booking system "Secret Garden" which allows users to plan and book trips by choosing
+        a specific area with attractions, The users and the partners company of the platform will have special bonus
+        system for discounts. The project was created by using JAVA 10, Velocity, Hibernate and Spark. The project is
+        visible at <a href="https://github.com/emilvaklinov/SECRET-GARDEN-Holiday-booking-system"target="_blank">GitHub </a>.
+        </p>
+    
+</div>
+
+</section>
+
+<div class="container">
+ <a href="https://www.linkedin.com/in/emil-vaklinov/"target="_blank">
+  <img src="pictures/emil.jpg" class="img-thumbnail" alt="Cinque Terre"></a>
+</div>
+
+  <h5> => + 44/7706910638  => emil_vaklinov[at]yahoo.com </h5>
+
+  <h6> © Emil Vaklinov - 2019</h6>
+
+  </body>
+</html>
+
+<html>
+  <head>
+    <script>
+      function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('txt').innerHTML =
+        h + ":" + m + ":" + s;
+        var t = setTimeout(startTime, 500);
+      }
+      function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+      }
+    </script>
+  </head>
+
+  <body onload="startTime()">
+
+    <div id="txt">Local Time:</div>
+
+  </body>
 </html>
