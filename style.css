@@ -65,14 +65,6 @@
     .demo:hover {
       opacity: 0.6;
     }
-    /*
-    #img {
-      width: 200px;
-      height: 100px;
-      margin-left: 560px;
-      margin-right: auto;
-    }
-    */
     
     *, *::before, *::after {
         box-sizing: border-box;

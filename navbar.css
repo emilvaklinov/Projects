@@ -20,5 +20,18 @@
         background-color: rgb(145, 143, 143); 
       }
       
-      
+    #home {
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+        background-color: rgba(196, 230, 233, 0.808);
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 7px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */ 
+    }
+    #home:hover {
+        background-color: rgb(145, 143, 143); 
+      }
     }
