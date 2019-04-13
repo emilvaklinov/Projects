@@ -1,8 +1,8 @@
-# Projects
+# P R O J E C T S
 
 https://emilvaklinov.github.io/Projects/
 
-
+#########################################
 
 You can see some of my projects written in Ruby, Java and JavaScript with CSS3 and HTML5.
 
