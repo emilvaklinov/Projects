@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="carousel.css">
     <title></title>
   </head>
 
@@ -24,24 +25,26 @@
 
 <h5>All projects were created by using vanilla Ruby, Java 10, JavaScript, HTML5 and CSS3.</h5>
 <section>
-  <!--
-<div id="section" class="container">
-  <div class="form-wrapper">
-    <h4>Carousel</h4>
-    <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="css,result" data-user="trakieca" data-slug-hash="zXoGpY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Carousel">
-    <span>See the Pen <a href="https://codepen.io/trakieca/full/zXoGpY">
-    Carousel</a> by Emil Vaklinov (<a href="https://codepen.io/trakieca">@trakieca</a>)
-    on <a href="https://codepen.io">CodePen</a>.</span>
-  </p>
-  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-    </div>
-    <p> <a href="" target="_blank"></a></p>
 
-    <h3>About the project</h3>
-
-
-</div>
--->
+  <div class="container" class="form-wrapper">
+      
+  <ul id="slides">
+   <li class="slide showing"></li>
+   <li class="slide"></li>
+   <li class="slide"></li>
+  </ul>
+  <div class="buttons">
+   <button class="controls" id="previous">&lt;</button>
+  
+   <button class="controls" id="pause">&#10074;&#10074;</button>
+  
+   <button class="controls" id="next">&gt;</button>
+  
+  
+  </div>
+  <script src="script.js"></script>
+  </div>
+ 
 
 <div id="section" class="container">
     <div class="form-wrapper">
