@@ -10,7 +10,7 @@
 
 #slides {
     position: fixed;
-    height: 350px;
+    height: 40px;
     padding: 2px;
     margin: 350px;
     margin-top: 350px;
@@ -22,8 +22,8 @@
   .slide {
     position: fixed;
     box-shadow: 0px 2px 22px 1px rgba(0,0,0,0.2);
-    left: 10px;
-    right: 5px;
+    left: 20px;
+    right: 0px;
     top: 390px;
     width: 100%;
     height: auto;
@@ -49,8 +49,8 @@
   
   
   .slide {
-    font-size: 70px;
-    padding: 75px;
+    font-size: 61px;
+    padding: 63px;
     box-sizing: border-box;
     background: #333;
     color: #fff;
@@ -74,8 +74,8 @@
   }
 
   .slide, .slide.showing {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 60px;
   } 
   
   .controls {
@@ -83,12 +83,12 @@
     color: #fff;
     border: none;
     padding: 1px 7px;
-    font-size: 5px;
+    font-size: 10px;
     cursor: pointer;
     border: 1px solid #fff;
     margin: 10px 0px 0px 10px;
-    width: 10px;
-    border-radius: 15px;
+    width: 25px;
+    border-radius: 25px;
   }
   
   .controls:hover,
@@ -103,11 +103,11 @@
   
   .buttons {
     position: fixed;
-    left: 50px;
-    top: 555px;
+    left: 20px;
+    top: 510px;
     z-index: 10;
-    font-size: 3px;
-    border-radius: 3px;
+    font-size: 10px;
+    border-radius: 15px;
     
   }
 }
