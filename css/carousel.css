@@ -73,6 +73,11 @@
     background-image: url("https://raw.githubusercontent.com/emilvaklinov/Projects/master/pictures/secretgarden.png");
   }
 
+  .slide:nth-of-type(4) {
+    background-color: rgb(250, 239, 219);
+    background-image: url("https://raw.githubusercontent.com/emilvaklinov/Projects/master/pictures/bucketlist.png");
+  }
+
   .slide, .slide.showing {
     height: 50px;
     width: 60px;
