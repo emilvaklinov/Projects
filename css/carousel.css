@@ -78,6 +78,11 @@
     background-image: url("https://raw.githubusercontent.com/emilvaklinov/Projects/master/pictures/bucketlist.png");
   }
 
+  .slide:nth-of-type(5) {
+    background-color: rgb(250, 239, 219);
+    background-image: url("https://raw.githubusercontent.com/emilvaklinov/Projects/master/pictures/slide3.jpg");
+  }
+
   .slide, .slide.showing {
     height: 50px;
     width: 60px;
