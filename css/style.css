@@ -10,15 +10,15 @@
         text-align: left;
         background-color: #fff;
     }
-    
-    
+
+
     .form-wrapper {
       width: 100%;
       display: flex;
       flex-direction: column;
     }
-    
-    
+
+
     .jumbotron_text_center {
       background-image: url("https://s22.postimg.cc/q7in78pht/blue-2906525_1920.jpg");
       background-size: cover;
@@ -27,8 +27,8 @@
       padding-bottom: 30px;
     }
 
-    
-    
+
+
     img.img-thumbnail {
         padding: 0.25rem;
         background-color: #fff;
@@ -47,7 +47,7 @@
     .img-thumbnail:hover {
       opacity: 0.6;
     }
-    
+
     img {
         cursor: pointer;
         vertical-align: middle;
@@ -57,21 +57,21 @@
         height: 450px;
         box-shadow: 0px 2px 22px 1px rgba(0,0,0,0.2);
         padding: 0.20rem;
-       
+
     }
     .demo {
       opacity: 1;
     }
-    
+
     .active,
     .demo:hover {
       opacity: 0.6;
     }
-    
+
     *, *::before, *::after {
         box-sizing: border-box;
     }
-    
+
     #section {
         display: block;
         padding: 3%;
@@ -86,7 +86,7 @@
         opacity: 1;
         transform: translateY(0px)
     }
-    
+
     a {
       color: rgb(88, 27, 27);
       font-weight: 700;
@@ -98,26 +98,26 @@
       max-width: 23rem;
       font-size: 1.1rem;
     }
-    
+
     /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
     .sticky + .content {
       padding-top: 60px;
     }
-    
+
     h2 {
         font-size: 25px;
       font-family: Palatino, 'Palatino Linotype', serif;
       color: #a1681c;
       margin-bottom: 7px;
     }
-    
+
     h3 {
       margin-top: 20px;
       text-align: left;
       text-decoration: underline;
-    
+
     }
-    
+
     h4 {
       text-align: left;
       font-size: 25px;
@@ -125,23 +125,22 @@
       font-family: "Comic Sans MS", sans-serif;
       color: #d1430a;
     }
-      
-    
+
+
     h5 {
       text-align: center;
       font-size: 14px;
       font-family: monospace;
       color: grey;
     }
-    
-    h6 {
+
+    footer {
       font-size: 12px;
       text-align: center;
     }
-    
+
     div#txt {
       text-align: center;
     }
-    
+
     }
-    
