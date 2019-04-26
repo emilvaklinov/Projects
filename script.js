@@ -45,6 +45,7 @@ pauseButton.onclick = function() {
   }
 };
 
+
 var next = document.getElementById("next");
 var previous = document.getElementById("previous");
 
