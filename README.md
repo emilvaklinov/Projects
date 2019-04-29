@@ -24,4 +24,3 @@ JavaScript projects:
 3. https://github.com/emilvaklinov/Brewdog-collection
 
 4. https://github.com/emilvaklinov/Full-stack-Lab-Bucket-List-App-last
-
