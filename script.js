@@ -45,15 +45,25 @@ pauseButton.onclick = function() {
   }
 };
 
+function leftArrowPressed() {
+  // my stuff here
+  //document.getElementById("previous").onkeypress = ;
+}
 
-var next = document.getElementById("next");
-var previous = document.getElementById("previous");
+function rightArrowPressed() {
+  // my stuff here
+ // document.getElementById("next").onkeypress = ;
+}
 
-next.onclick = function() {
-  pauseSlideshow();
-  nextSlide();
+document.onkeydown = function(evt) {
+   evt = evt || window.event;
+   switch (evt.keyCode) {
+       case 37:
+           leftArrowPressed();
+           break;
+       case 39:
+           rightArrowPressed();
+           break;
+   }
 };
-previous.onclick = function() {
-  pauseSlideshow();
-  previousSlide();
-};
+
