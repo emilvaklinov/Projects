@@ -45,25 +45,31 @@ pauseButton.onclick = function() {
   }
 };
 
-function leftArrowPressed() {
-  // my stuff here
-  //document.getElementById("previous").onkeypress = ;
+
+function keyMove(e) {
+
+  if (e.keyCode == "39") {
+      nextSlide();
+  }
+
+  if (e.keyCode == "37") {
+      previousSlide();
+  }
 }
 
-function rightArrowPressed() {
-  // my stuff here
- // document.getElementById("next").onkeypress = ;
-}
+var next = document.getElementById("next");
+var pause = document.getElementById("previous");
 
-document.onkeydown = function(evt) {
-   evt = evt || window.event;
-   switch (evt.keyCode) {
-       case 37:
-           leftArrowPressed();
-           break;
-       case 39:
-           rightArrowPressed();
-           break;
-   }
+next.onclick = function() {
+pauseSlideshow();
+nextSlide();
 };
+
+
+previous.onclick = function() {
+pauseSlideshow();
+previousSlide();
+};
+
+window.addEventListener('keydown', keyMove);
 
