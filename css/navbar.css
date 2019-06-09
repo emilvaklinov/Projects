@@ -47,13 +47,13 @@
         cursor: pointer;
         padding: 10px;
         border-radius: 7px;
-        font-size: 17px;
+        font-size: 18px;
     }
     #certificates:hover {
         background-color: rgb(145, 143, 143);
       }
     input {
-      width: 90px; 
+      width: 115px; 
       text-align: center; 
       padding: 8px; 
       box-shadow: 6px 6px 5px; 
